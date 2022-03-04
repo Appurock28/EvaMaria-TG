@@ -127,7 +127,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('This Movie Is Not Yet Released Or Still Not Added To Our Database 💌')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -400,8 +400,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/KaipullaVadiveluOffl'),
-            InlineKeyboardButton('Request Group 🔗', url='https://t.me/TamilMovies_Zone')
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Disney_Linkz'),
+            InlineKeyboardButton('Request Group 🔗', url='https://t.me/What_Movie_Do_You_Want')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
         ]]
@@ -430,7 +430,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/LinkZz_MBBS'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/Disney_Linkz'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -641,7 +641,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @TamilMovies_Zone 🔗**"
+        cap = f"**Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️** : ​`{search}`\n\n**🔗 Join : @Disney_Linkz 🔗**"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
