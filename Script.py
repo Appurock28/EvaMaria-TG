@@ -1,10 +1,10 @@
 class script(object):
     START_TXT = """<b>Hello Nanba/Nanbi {}👋
-My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍💻 Developer : <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a></b>"""
+My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍💻 Developer : <a href='https://t.me/Beast_On_Mode'>✯°• Iᴍ 𝐁ᴇᴀsᴛ Via @Disney_Linkz  •°✯ « TEAM DISNEY​ »</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/I_m_Kristy'>✯°• Iᴍ Kʀɪsᴛʏ கிறிஸ்டி Via @KaipullaVadiveluOffl  •°✯ « Tᴇᴀᴍ Kᴀɪᴘᴜʟʟᴀ​ »</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/Beast_On_Mode'>✯°• Iᴍ 𝐁ᴇᴀsᴛ Via @Disney_Linkz  •°✯ « TEAM DISNEY​ »</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -12,10 +12,10 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- Source - https://t.me/Disney_Linkz
 
 <b>DEVS:</b>
-- <a href=https://t.me/KaipullaBots>KaipullaBots</a>"""
+- <a href=http://t.me/DisneyLinkz_Official_bot>𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟-𝗔𝗨𝗧𝗢𝗙𝗜𝗟𝗧𝗘𝗥-𝗕𝗢𝗧</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
