@@ -40,7 +40,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, I Can Provide Movies For ,\n\n👨‍
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:http://t.me/DisneyLinkz_Official_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
