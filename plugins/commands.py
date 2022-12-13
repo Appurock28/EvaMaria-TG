@@ -22,7 +22,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Disney_Linkz')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/Disney_Linkzzzz')
             ],
             [
                 InlineKeyboardButton('Join Our Group', url=f"https://t.me/What_Movie_Do_You_Want"),
@@ -45,7 +45,7 @@ async def start(client, message):
             ],[ 
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Disney_Linkz'),
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Disney_Linkzzzz'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/What_Movie_Do_You_Want')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
@@ -87,7 +87,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 Search Movies', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Disney_Linkz'),
+            InlineKeyboardButton('🎞 Main Channel', url='https://t.me/Disney_Linkzzzz'),
             InlineKeyboardButton('Request Group 🔗', url='https://t.me/What_Movie_Do_You_Want')
             ],[
             InlineKeyboardButton('About Meh 📬', callback_data='about')
